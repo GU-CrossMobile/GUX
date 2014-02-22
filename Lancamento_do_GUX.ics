@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+X-WR-CALNAME:Lançamento do GUX
+X-WR-TIMEZONE:America/Sao_Paulo
+BEGIN:VEVENT
+DTSTAMP:20140222T141640Z
+UID:20140222T141640Z-529862065@marudot.com
+DTSTART;TZID=America/Sao_Paulo:20140222T130000
+DTEND;TZID=America/Sao_Paulo:20140222T133000
+SUMMARY:Lançamento do GUX - Cadastramento
+DESCRIPTION:Credenciamento nos locais. Registre-se se você está online\, para participar do sortei ao final do evento.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20140222T141640Z
+UID:20140222T141640Z-523267562@marudot.com
+DTSTART;TZID=America/Sao_Paulo:20140222T133000
+DTEND;TZID=America/Sao_Paulo:20140222T140000
+SUMMARY:Lançamento do GUX - Networking
+DESCRIPTION:Networking com outros desenvolvedores Cross Mobile e usuários do Xamarin. Aproveite este tempo para conhecer pessoas novas e criar novos contatos.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20140222T141640Z
+UID:20140222T141640Z-575607185@marudot.com
+DTSTART;TZID=America/Sao_Paulo:20140222T140000
+DTEND;TZID=America/Sao_Paulo:20140222T143000
+SUMMARY:Lançamento do GUX!
+DESCRIPTION:Muita atenção agora é o lançamento oficial do Grupo de Usuários Cross Mobile do Brasil!
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20140222T141640Z
+UID:20140222T141640Z-1084423892@marudot.com
+DTSTART;TZID=America/Sao_Paulo:20140222T143000
+DTEND;TZID=America/Sao_Paulo:20140222T152000
+SUMMARY:Palestra: Desafios do Desenvolvimento CrossMobile
+DESCRIPTION:Palestra com Alessandro Binhara sobre os principais desafios no desenvolvimento de aplicações Cross Mobile.
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20140222T141640Z
+UID:20140222T141640Z-1500892529@marudot.com
+DTSTART;TZID=America/Sao_Paulo:20140222T153000
+DTEND;TZID=America/Sao_Paulo:20140222T162000
+SUMMARY:Palestra: Tablets e Mobile na Automação Comercial com Windows Embbeded
+DESCRIPTION:Palestra com Claudenir Andrade onde você vai entender como usar tablets e dispositivos móveis em soluções de automação comercial usando o Windows Embedded
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20140222T141640Z
+UID:20140222T141640Z-803140061@marudot.com
+DTSTART;TZID=America/Sao_Paulo:20140222T162000
+DTEND;TZID=America/Sao_Paulo:20140222T165000
+SUMMARY:Sorteio\, fotografia e encerramento
+DESCRIPTION:Encerramento do evento\, sorteio de brindes e fotografia com a galera!
+END:VEVENT
+END:VCALENDAR
