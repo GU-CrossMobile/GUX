@@ -23,6 +23,18 @@ ul {
   }
 }
 
+.navbar-text {
+  a {
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  a:hover {
+    color: white;
+  }
+}
+
 // mixins
 
 @mixin shadow {
@@ -61,9 +73,6 @@ ul {
 }
 
 .where {
-  li {
-    // display: inline-table;
-  }
   li span {
     @include shadow;
   }
@@ -71,4 +80,9 @@ ul {
 
 .social {
   background-color: rgba(0, 0, 0, 0.05);
+
+  li {
+    font-size: 14px;
+    display: inline-table;
+  }
 }
