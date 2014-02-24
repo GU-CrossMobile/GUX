@@ -1,34 +1,27 @@
-jekyll-template
-===============
+# Site do Grupo de Usuários Crossmobile
 
-Simple static site template with Jekyll already using Jekyll Assets (CoffeScript, Sass, Bootstrap and FontAwesome)
+## Veja ele em ação
 
-## See it in action
-
-After you clone it, to see the default Jekyll site just run
+Depois de clonar, entre no diretório e execute o servidor
 
 ````
 bundle install
 bundle exec jekyll serve
 ````
 
-And then navigate to [localhost:4000](http://localhost:4000)
+Logo após navegue para [localhost:4000](http://localhost:4000)
 
-## Using it to start your own blog/site/etc
-
-Fork this repository and then change the contens of `_layouts`, `_posts` and `_assets/stylesheets`
-
-## Contributing
+## Contribua
 
 1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+2. Crie um branch de feature (`git checkout -b my-new-feature`)
+3. Salve suas alterações (`git commit -am 'Added some feature'`)
+4. Dê push do branch (`git push origin my-new-feature`)
+5. Crie um Pull Request
 
-## License
+## Licença
 
-Copyright (C) 2014 mcorp (http://mcorp.io)
+Copyright (C) 2014 gucrossmobile (http://gucrossmobile.com.br)
 
 The MIT License
 
