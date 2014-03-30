@@ -1,0 +1,93 @@
+---
+layout: default
+title: Primeiro encontro do GU Crossmobile
+---
+
+<!-- header -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <a class="navbar-brand navbar-text " href="/">GUX</a>
+    <p class="navbar-text navbar-left active"><a href="#">Primeiro Encontro</a></p>
+    <p class="navbar-text navbar-left"><a href="/">Segundo Encontro</a></p>
+
+    <p class="navbar-text navbar-right"><a href="https://www.facebook.com/GuCrossMobile" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></p>
+    <p class="navbar-text navbar-right"><a href="https://twitter.com/gucrossmobile" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></p>
+    <p class="navbar-text navbar-right"><a href="https://plus.google.com/110434986143117698341/posts" target="_blank"><i class="fa fa-google-plus"></i> Google Plus</a></p>
+  </div>
+</nav>
+<!-- header -->
+
+<!-- vídeo -->
+  <div class="row video">
+  <div class="container">
+  <h2><i class="fa fa-video-camera"></i> assista ao evento gravado</h2>
+  <div class="video-container">
+  <iframe id="ytplayer" width="560" height="315" src="//www.youtube.com/embed/X0k7UM_FjBA?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+  <script>
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var ytplayer;
+    function onYouTubeIframeAPIReady() {
+      ytplayer = new YT.Player('ytplayer', {
+        events: {
+        }
+      });
+    }
+  </script>
+  </div>
+  </div>
+  </div>
+<!-- vídeo -->
+
+
+<!-- agenda -->
+  <div class="row agenda">
+  <div class="container">
+    <h2><i class="fa fa-calendar-o"></i> agenda</h2>
+    <p><a href="javascript:void(0);" onClick="ytplayer.seekTo(2142, true); ytplayer.playVideo();">Toque o vídeo</a> e depois clique nos links abaixo para pular para um momento específico do evento</p>
+    <ul>
+      <li><a href="javascript:void(0);" onClick="ytplayer.seekTo(0, true);"><small class="time">00:00:00</small> Credenciamento</a> <small><span class="label label-warning">presencial apenas</span></small></li>
+      <li><a href="javascript:void(0);" onClick="ytplayer.seekTo(0, true);"><small class="time">00:00:00</small> Welcome Network - CrossMobile Developers</a> <small><span class="label label-warning">presencial apenas</span></small></li>
+      <li><a href="javascript:void(0);" onClick="ytplayer.seekTo(2142, true);"><small class="time">00:35:41</small> Lançamento do Gu CrossMobile</a> <small><span class="label label-default">abertura</span></small></li>
+      <li><a href="javascript:void(0);" onClick="ytplayer.seekTo(3513, true);"><small class="time">00:58:35</small> Desafios do Desenvolvimento CrossMobile</a> <small><span class="label label-primary">palestra</span></small></li>
+      <li><a href="javascript:void(0);" onClick="ytplayer.seekTo(8288, true);"><small class="time">02:18:08</small> Tablet e Mobile na Automação Comercial com Windows Embedded</a> <small><span class="label label-primary">palestra</span></small></li>
+      <li><a href="javascript:void(0);" onClick="ytplayer.seekTo(11188, true);"><small class="time">03:06:20</small> Sorteio, fotos e encerramento</a> <small><span class="label label-default">fechamento</span></small></li>
+  </div>
+  </div>
+<!-- agenda -->
+
+<!-- social -->
+<div class="row">
+<div class="container">
+  <h2><i class="fa fa-users"></i> social media</h2>
+  <div class="col-md-4 column">
+    <h3 class="text-center">
+      <a href="https://twitter.com/gucrossmobile" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-size="large">Seguir @gucrossmobile</a>
+    </h3>
+    <a class="twitter-timeline" href="https://twitter.com/search?q=%23GUCrossMobile" data-widget-id="437059263131688960">Tweets about "#GUCrossMobile"</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+  <div class="col-md-6 column">
+    <h3 class="text-center">
+      <fb:comments-count href="http://gucrossmobile.com.br" /></fb:comments-count> comentários no Facebook <div class="fb-like" data-href="https://www.facebook.com/GuCrossMobile" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+    </h3>
+    <div class="fb-comments" data-href="http://gucrossmobile.com.br/" data-numposts="5" data-colorscheme="light"></div>
+  </div>
+</div>
+</div>
+<!-- social -->
+
+<!-- patrocinadores -->
+  <div class="row ads">
+  <div class="container">
+    <h2><i class="fa fa-thumbs-o-up"></i> nossos patrocinadores</h2>
+    <center>
+    <img src="{% asset_path patrocinadores_1.png %}" class="img-responsive">
+    </center>
+  </div>
+  </div>
+<!-- patrocinadores -->
