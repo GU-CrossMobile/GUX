@@ -1,13 +1,13 @@
 name: Grupo de Usuários Crossmobile do Brasil
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 destination: public_html
 
 gems:
   - bootstrap-sass
   - jekyll-assets
-  - jekyll-assets/bootstrap
-  - jekyll-assets/font-awesome
+  # - jekyll-assets/bootstrap
+  # - jekyll-assets/font-awesome
 
 exclude:
   - Gemfile
