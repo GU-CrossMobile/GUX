@@ -1,6 +1,5 @@
 # Jekyll stuff
 _site/
-public_html/
 
 # MacOS stuff
 .DS_Store
